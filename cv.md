@@ -5,7 +5,7 @@ I believe and realize that cryptocurrency is the future, and this is a very impo
 They have high soft skills, working in a bank often performed team leader tasks. He trained all new employees, and there were employees who were contacted for any work issues.
 Purposeful, I always solve tasks, responsible, get along well in any team.
 4. Javascript, Python, Git, VS Code.
-5. 
+5. proverka
 <<`
   function encrypt(word) => {
     let result0 = ''
