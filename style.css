@@ -44,5 +44,8 @@ html {
 }
 .nav-item {
     position: relative;
-    right: 35%;
+    right: 25%;
+}
+.github {
+    background-image: url(../assets/img/github.png);
 }
