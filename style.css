@@ -42,3 +42,7 @@ html {
         width: 100%;
     }
 }
+.nav-item {
+    position: relative;
+    right: 35%;
+}
