@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <title>CV</title>>
+    <title>Document CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico"> 
+    <link rel="icon" href="assets/img/favicon.ico">
 </head>
 <body>
     <div class="container">
@@ -19,22 +18,28 @@
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                     <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
-                    <li class="nav-item"><a href="#Profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                </ul>
+            </nav>
         </header>
-        <main class="main main-container" >
+        <main class="main main-container">
             <section class="section" id="profile">
                 <h1 class="section-title">Profile</h1>
-                <p>Nikolay Paraev</p>
+                <p class="p-profile">Nikolay Paraev <img src="assets/img/face.jpg" alt="avatar" class="img-face"></p>
             </section>
             <section class="section" id="contacts">
                 <h1 class="section-title">Contacts</h1>
-                <p>+79522236049 / Discord: - kolya34#6022
+                <p>+79522236049 / Discord: - kolya34#6022 / nikolayparaev34@gmail.com</p>
             </section>
             <section class="section" id="summary">
                 <h1 class="section-title">Summary</h1>
-                <p>I plan to develop at this stage in web development, and in the development of web applications. In the future, I am thinking about options for the transition and cognition of crypto applications in web platforms I believe and realize that cryptocurrency is the future, and this is a very important direction in building the Internet and the transition from the symphonic WEB 2.0 to WEB 3.0. They have high soft skills, working in a bank often performed team leader tasks. He trained all new employees, and there were employees who were contacted for any work issues. Purposeful, I always solve tasks, responsible, get along well in any team.</p>
+                <p>I plan to develop at this stage in web development, and in the development of web applications.
+                   In the future, I am thinking about options for the transition and cognition of crypto applications in web platforms I believe and realize that cryptocurrency is the future,
+                   and this is a very important direction in building the Internet and the transition from the symphonic WEB 2.0 to WEB 3.0.
+                   They have high soft skills, working in a bank often performed team leader tasks.
+                   He trained all new employees, and there were employees who were contacted for any work issues. Purposeful, I always solve tasks, responsible, get along well in any team.</p>
             </section>
             <section class="section" id="skills">
                 <h1 class="section-title">Skills</h1>
@@ -42,7 +47,9 @@
             </section>
             <section class="section" id="code">
                 <h1 class="section-title">Code</h1>
-                <p>function encrypt(word) => { let result0 = '' let result1 = '' let lastChar = '' let resultFinal = '' if (word.length % 2 !== 0) { lastChar = word[word.length - 1] } for (let i = 2; i <= word.length; i += 1) { if (2 % i === 0 || i % 2 === 0) { result0 = word[i - 2] result1 = word[i - 1] resultFinal = resultFinal + result1 + result0 } } return resultFinal + lastChar }</p>
+                <pre>const stringToNumber = function(str){
+                    return Number(str);
+                }</pre>
             </section>
             <section class="section" id="projects">
                 <h1 class="section-title">Projects</h1>
@@ -57,7 +64,9 @@
                 <p>A2 level, I am currently studying to advance to the B1-B2 level.</p>
             </section>
         </main>
-        <footer class="footer"></footer>
-    </div>>
+        <footer class="footer"><p class="github">Nikolay Paraev CV 2022<a href="https://github.com/kolya34"><img src="./assets/img/github.png" width="50" height="50" alt="kolya34"></a></p>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="200" height="100" alt="rs-school"></a>
+        </footer>
+    </div>
 </body>
 </html>
